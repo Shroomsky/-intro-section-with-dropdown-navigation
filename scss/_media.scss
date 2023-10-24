@@ -1,6 +1,5 @@
 @mixin media() {
 	@media (min-width: 997px) {
-		
 		.wrapper {
 			width: 100%;
 			max-width: 95vw;
@@ -53,11 +52,12 @@
 		}
 		.hero-img-desktop {
 			display: block;
-			max-height: 650px;
+			max-height: 640px;
+			z-index: 20;
 		}
 		#FeaturesList {
 			transform: translateY(0px);
-			
+
 			& ul {
 				left: -100px;
 				z-index: 5;
@@ -125,11 +125,10 @@
 		}
 		.clients-logos {
 			margin-top: 60px;
-			
+
 			& .c-Logo {
 				width: 100px;
 			}
 		}
 	}
-	
 }
