@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+
+<body>
+  <modal class="modal hide"></modal>
+  <wrapper class="wrapper">
+    <header class="header"><a href=""><img src="./images/logo.svg" alt="snap logo" class="logo-mobile" aria-hidden="true"></a>
+      <img src="./images/icon-menu.svg" alt="open menu" id="nav-menu-bars" class="bars">
+    </header>
+    <nav class="nav hide-menu">
+      <img src="./images/icon-close-menu.svg" alt="close menu" class="close-menu">
+      <ul class="top-lvl">
+        <a href=""><img src="./images/logo.svg" alt="snap logo" class="logo-desktop"></a>
+        <li id="FeaturesList">
+          <button class="menu_top_item" id="Features" aria-expanded="true">Features<img
+              src="./images/icon-arrow-down.svg" alt="arrow incon" class="arrow" aria-hidden="true">
+          </button>
+          <ul class="hide">
+            <li class="menu_item"><img src="./images/icon-todo.svg" alt="" class="menu-img"><a href="">Todo List</a>
+            </li>
+            <li class="menu_item"><img src="./images/icon-calendar.svg" alt="" class="menu-img"><a href="">Calendar</a>
+            </li>
+            <li class="menu_item"><img src="./images/icon-reminders.svg" alt="" class="menu-img"><a
+                href="">Reminders</a></li>
+            <li class="menu_item"><img src="./images/icon-planning.svg" alt="" class="menu-img"><a href="">Planning</a>
+            </li>
+          </ul>
+        </li>
+        <li id="CompanyList">
+        <button class="menu_top_item" id="Company"  aria-expanded="true">Company<img src="
+            ./images/icon-arrow-down.svg" alt="arrow icon" class="arrow" aria-hidden="true">
+        </button>
+          <ul class="hide">
+            <li class="menu_item"><a href="">History</a></li>
+            <li class="menu_item"><a href="">Our Team</a></li>
+            <li class="menu_item"><a href="">Blog</a></li>
+          </ul>
+        </li>
+        <li><a href="">Careers</a></li>
+        <li><a href="">About</a></li>
+      </ul>
+      <div class="logReg">
+        <a href="" class="btn" id="login">Login</a>
+        <a href="" class="btn" id="register">Register</a>
+      </div>
+    </nav>
+    <main>
+      
+      <banner class="banner">
+        <img src="./images/image-hero-mobile.png" alt="" class="hero-img">
+        <img src="./images/image-hero-desktop.png" alt="" class="hero-img-desktop">
+      </banner>
+    <aside>
+      <h1>Make remote work</h1>
+      <p>
+        Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.
+      </p>
+      <a href="" class="btn btn-black">Learn More</a>
+      <section class="clients-logos">
+        <img src="./images/client-databiz.svg" alt="" class="c-Logo">
+        <img src="./images/client-audiophile.svg" alt="" class="c-Logo">
+        <img src="./images/client-meet.svg" alt="" class="c-Logo">
+        <img src="./images/client-maker.svg" alt="" class="c-Logo">
+      </section>
+    </A>
+    </main>
+  </wrapper>
+  <footer class="footer">
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/Shroomsky" target="_blank">@Shroomsky</a>.
+    </p>
+  </footer>
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>

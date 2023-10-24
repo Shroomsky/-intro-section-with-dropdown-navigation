@@ -1,0 +1,24 @@
+@mixin footer(
+	$bg_color: DarkGray,
+	$main_color: black,
+	$attributionColor: #ffff
+) {
+	.footer {
+		bottom: 0;
+		padding: 0.2rem;
+		width: 100%;
+		color: $main_color;
+		background-color: $bg_color;
+		& .attribution {
+			font-size: 0.8rem;
+			text-align: center;
+			& a {
+				text-decoration: none;
+				color: $attributionColor;
+				&:visited {
+					color: $attributionColor;
+				}
+			}
+		}
+	}
+}

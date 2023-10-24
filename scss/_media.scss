@@ -1,0 +1,130 @@
+@mixin media() {
+	@media (min-width: 997px) {
+		
+		.wrapper {
+			width: 100%;
+			max-width: 95vw;
+			overflow: hidden;
+		}
+		.logo-mobile {
+			display: none;
+		}
+		.bars {
+			display: none;
+		}
+		main {
+			flex-direction: row-reverse;
+			align-items: center;
+			text-align: left;
+			justify-content: space-between;
+			gap: 30px;
+		}
+		aside {
+			height: 100%;
+			width: 85%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			align-items: flex-start;
+			gap: 40px;
+		}
+		p {
+			text-align: left;
+			font-size: 500;
+			width: 90%;
+		}
+		h1 {
+			font-size: 4rem;
+		}
+		.banner {
+			width: 100%;
+		}
+		.hide {
+			display: block;
+			visibility: hidden;
+			opacity: 0;
+			width: 0%;
+			transform: translateY(-200px);
+			transition: all 0.2s;
+			position: absolute;
+		}
+		.hero-img {
+			display: none;
+		}
+		.hero-img-desktop {
+			display: block;
+			max-height: 650px;
+		}
+		#FeaturesList {
+			transform: translateY(0px);
+			
+			& ul {
+				left: -100px;
+				z-index: 5;
+			}
+			& .active {
+				visibility: visible;
+				opacity: 1;
+
+				width: 200%;
+				padding: 10px 20px;
+				background-color: #ffff;
+				border: none;
+				border-radius: 10px;
+				box-shadow: 4px 11px 24px -10px rgba(66, 68, 90, 1);
+				transform: translateY(0px);
+			}
+		}
+		#CompanyList {
+			transform: translateX(0px);
+			& .active {
+				visibility: visible;
+				opacity: 1;
+				left: -10px;
+				width: 140%;
+				padding: 10px 10px;
+				background-color: #ffff;
+				border: none;
+				border-radius: 10px;
+				box-shadow: 4px 11px 24px -10px rgba(66, 68, 90, 1);
+				transform: translateY(0px);
+			}
+		}
+		.nav {
+			width: 100%;
+			height: 80px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			transform: translateX(0%);
+			& .close-menu {
+				display: none;
+			}
+
+			& .logReg {
+				flex-direction: row;
+				height: 100%;
+				gap: 20px;
+			}
+			& .top-lvl {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				gap: 30px;
+				margin: 0;
+				& .logo-desktop {
+					display: block;
+					margin-right: 20px;
+				}
+			}
+		}
+		.modal {
+			display: none;
+		}
+	}
+	.c-Logo {
+		width: 90px;
+	}
+}
