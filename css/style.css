@@ -389,7 +389,7 @@ p {
   }
   .hero-img-desktop {
     display: block;
-    max-height: 640px;
+    max-height: 600px;
     z-index: 20;
   }
   #FeaturesList {
