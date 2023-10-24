@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,29 +11,34 @@
   <link rel="stylesheet" href="./css/style.css">
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 </head>
+
 <body>
   <div class="modal hide" aria-hidden="true"></div>
   <div class="wrapper">
-    <header class="header"><a href="" aria-level="Home page link"><img src="./images/logo.svg" alt="snap logo" class="logo-mobile"
-          aria-hidden="true"></a>
+    <header class="header"><a href="" aria-level="Home page link"><img src="./images/logo.svg" alt="snap logo"
+          class="logo-mobile" aria-hidden="true"></a>
       <img src="./images/icon-menu.svg" alt="open menu" id="nav-menu-bars" class="bars">
     </header>
     <nav class="nav hide-menu">
       <img src="./images/icon-close-menu.svg" alt="close menu" class="close-menu">
       <ul class="top-lvl">
-        <li><a href="" aria-level="Home page link"><img src="./images/logo.svg" alt="snap logo" class="logo-desktop"></a></li>
+        <li><a href="" aria-level="Home page link"><img src="./images/logo.svg" alt="snap logo"
+              class="logo-desktop"></a></li>
         <li id="FeaturesList">
           <button class="menu_top_item" id="Features" aria-expanded="true">Features<img
               src="./images/icon-arrow-down.svg" alt="arrow incon" class="arrow" aria-hidden="true">
           </button>
           <ul class="hide">
-            <li class="menu_item"><img src="./images/icon-todo.svg" alt="" class="menu-img"><a href="">Todo List</a>
+            <li class="menu_item"><img src="./images/icon-todo.svg" alt="todo icon" class="menu-img"><a href=""
+                aria-label="Todo list link">Todo List</a>
             </li>
-            <li class="menu_item"><img src="./images/icon-calendar.svg" alt="" class="menu-img"><a href="">Calendar</a>
+            <li class="menu_item"><img src="./images/icon-calendar.svg" alt="calender icon" class="menu-img"><a href=""
+                aria-label="Calendar link">Calendar</a>
             </li>
-            <li class="menu_item"><img src="./images/icon-reminders.svg" alt="" class="menu-img"><a
-                href="">Reminders</a></li>
-            <li class="menu_item"><img src="./images/icon-planning.svg" alt="" class="menu-img"><a href="">Planning</a>
+            <li class="menu_item"><img src="./images/icon-reminders.svg" alt="remainders icon" class="menu-img"><a
+                href="" aria-label="Remainers link">Reminders</a></li>
+            <li class="menu_item"><img src="./images/icon-planning.svg" alt="Planing icon" class="menu-img"><a href=""
+                aria-label="Planing link">Planning</a>
             </li>
           </ul>
         </li>
@@ -46,12 +52,12 @@
             <li class="menu_item"><a href="">Blog</a></li>
           </ul>
         </li>
-        <li><a href="">Careers</a></li>
-        <li><a href="">About</a></li>
+        <li><a href="" aria-label="Careers list  link">Careers</a></li>
+        <li><a href="" aria-label="Read about our company">About</a></li>
       </ul>
       <div class="logReg">
-        <a href="" class="btn" id="login">Login</a>
-        <a href="" class="btn" id="register">Register</a>
+        <a href="" class="btn" id="login" aria-label="Login link">Login</a>
+        <a href="" class="btn" id="register" aria-link="Register link">Register</a>
       </div>
     </nav>
     <main>
@@ -65,7 +71,7 @@
           Get your team in sync, no matter your location. Streamline processes,
           create team rituals, and watch productivity soar.
         </p>
-        <a href="" class="btn btn-black">Learn More</a>
+        <a href="" class="btn btn-black" aria-label="Read about our services">Learn More</a>
         <div class="clients-logos">
           <img src="./images/client-databiz.svg" alt="databiz logo" class="c-Logo">
           <img src="./images/client-audiophile.svg" alt="audiophile logo" class="c-Logo">
