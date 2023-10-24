@@ -4,14 +4,14 @@
 	$attributionColor: #ffff
 ) {
 	.footer {
-		bottom: 0;
-		padding: 0.2rem;
 		width: 100%;
 		color: $main_color;
 		background-color: $bg_color;
 		& .attribution {
+			width: 100%;
 			font-size: 0.8rem;
 			text-align: center;
+			margin: 0;
 			& a {
 				text-decoration: none;
 				color: $attributionColor;

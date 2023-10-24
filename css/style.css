@@ -66,6 +66,8 @@ a:visited {
 .wrapper {
   flex: 1 0 auto;
   width: 90vw;
+  height: -moz-fit-content;
+  height: fit-content;
   max-width: 450px;
   padding: 15px 10px;
   display: flex;
@@ -275,15 +277,14 @@ p {
 
 .clients-logos {
   margin-top: 60px;
-  width: 100%;
+  width: 99%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-
-.c-Logo {
-  width: 70px;
+.clients-logos .c-Logo {
+  width: 60px;
 }
 
 .btn {
@@ -317,15 +318,15 @@ p {
 }
 
 .footer {
-  bottom: 0;
-  padding: 0.2rem;
   width: 100%;
   color: black;
   background-color: DarkGray;
 }
 .footer .attribution {
+  width: 100%;
   font-size: 0.8rem;
   text-align: center;
+  margin: 0;
 }
 .footer .attribution a {
   text-decoration: none;
@@ -365,7 +366,7 @@ p {
   }
   p {
     text-align: left;
-    font-size: 500;
+    font-weight: 500;
     width: 90%;
   }
   h1 {
@@ -455,7 +456,10 @@ p {
   .modal {
     display: none;
   }
-}
-.c-Logo {
-  width: 90px;
+  .clients-logos {
+    margin-top: 60px;
+  }
+  .clients-logos .c-Logo {
+    width: 100px;
+  }
 }/*# sourceMappingURL=style.css.map */

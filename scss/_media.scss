@@ -30,7 +30,7 @@
 		}
 		p {
 			text-align: left;
-			font-size: 500;
+			font-weight: 500;
 			width: 90%;
 		}
 		h1 {
@@ -123,8 +123,13 @@
 		.modal {
 			display: none;
 		}
+		.clients-logos {
+			margin-top: 60px;
+			
+			& .c-Logo {
+				width: 100px;
+			}
+		}
 	}
-	.c-Logo {
-		width: 90px;
-	}
+	
 }
